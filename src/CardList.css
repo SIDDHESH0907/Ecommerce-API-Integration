@@ -1,0 +1,9 @@
+.card-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+}
