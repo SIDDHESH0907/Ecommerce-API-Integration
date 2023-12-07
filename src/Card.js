@@ -6,24 +6,20 @@ function Card(props) {
     <>
       <div className="card">
         <div className="image">
-          <img src={props.images} />
+          <img src={props.images[0]} />
         </div>
         <div className="info">
           <div>
             <b>Title:</b> {props.title}
           </div>
+          <div></div>
           <div>
-            {/* <b>Description:</b> {props.description} */}
+            <b>Price:</b> ₹ {props.price}
           </div>
           <div>
-            <b>Price:</b> {props.price}
+            <b>Category:</b> {props.category.name}
           </div>
-          <div>
-            <b>Brand:</b> {props.brand}
-          </div>
-          <div>
-            <b>Category:</b> {props.category}
-          </div>
+          <div></div>
         </div>
       </div>
     </>

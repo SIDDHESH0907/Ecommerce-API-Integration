@@ -1,9 +1,9 @@
 .card {
   border: 2px solid black;
-  height: 360px;
+  height: 300px;
   width: 250px;
   margin: 10px;
-  padding: 10px;
+  padding: 0px 10px;
   border-radius: 6px;
   display: flex;
   justify-content: center;
@@ -27,5 +27,7 @@ img {
 .info {
   display: flex;
   justify-content: center;
+  align-items: left;
   flex-direction: column;
+  text-align: left;
 }

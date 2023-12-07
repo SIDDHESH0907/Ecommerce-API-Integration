@@ -6,13 +6,12 @@ import products from "./db.json";
 function CardList() {
   return (
     <>
-    
-    <div>
-      {products.map((product)=>(
-    <Card key={product.id} {...product}/>))}
-    </div>
+      <div className="card-list">
+        {products.map((product) => (
+          <Card className="list" key={product.id} {...product} />
+        ))}
+      </div>
     </>
-    
   );
 }
 
