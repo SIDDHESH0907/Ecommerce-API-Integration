@@ -1,10 +1,10 @@
-import './App.css';
-import CardList from './CardList.js';
+import "./App.css";
+import CardList from "./CardList.js";
 
 function App() {
   return (
     <>
-    <CardList/>
+      <CardList />
     </>
   );
 }
